@@ -54,9 +54,10 @@ pageextension 50057 PurchaseInvoiceExt extends "Purchase Invoice"
             field("PO_Approved By"; "PO_Approved By")
             {
                 ApplicationArea = all;
+                Visible = false;
             }
             field("PI Approved By"; "PI Approved By")
-            { ApplicationArea = all; }
+            { ApplicationArea = all; Visible = false; }
         }
 
         /* addbefore("Attached Documents")
